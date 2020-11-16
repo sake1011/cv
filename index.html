@@ -1,0 +1,87 @@
+<!-- hier wird der Dokument Typ definiert, in unserem Fall ist es Dokument type HTML 5
+d.h. das Dokument wird beim öffnen vom Browser als HTML 5 gerendert
+  -->
+<!DOCTYPE html>
+<!-- das HTML tag beschreibt dem Browser, dass alles zwischen dem start und end tag als html interpretiert werden soll
+
+lang steht für language, also in welcher Sprache das nachfolgende interpretiert werden soll.
+
+dir steht für die Richtung wie der Text interpretiert werden soll. ltr steht für "left to right", alternativ gibt es rtl für "right to left" z.B. bei hebräisch.
+-->
+<html lang="en" dir="ltr">
+<!-- Der Head-Abschnitt beinhaltet Informationen zu der Website und beschreibt dem Browser wie er die Seite behandeln soll -->
+
+<head>
+  <!-- gibt an dass alle characters als UTF-8 interpretiert werden sollen
+
+      hier kann zB auch die description, der autor und einige andere Infos hinterlegt werden.
+   -->
+  <meta charset="utf-8">
+  <!-- Name der Seite; wird im Browser im Tab angezeigt-->
+  <title>Kevin's Seite</title>
+</head>
+<body>
+  <table cellspacing = 20>
+    <tr>
+      <td><img src="images/Kevin_Sauer_rund.png" alt="Kevin Sauer"></td>
+      <td><h1>Kevin Sauer</h1
+        <!-- p = Paragraph, em = kursiv -->
+      <p><em><strong>SAP Consultant</strong></em></p>
+      <p>I am a SAP Consultant at valantic in Mannheim</p></td>
+    </tr>
+  </table>
+  <hr size = "3" noshade>
+  <h3>Education</h3>
+  <!-- unordered List -> Aufzählungspunkte -->
+  <ul>
+    <!-- line Item -> Listeintrag innerhalb einer ul bzw. ordered list (ol -> 1. 2. 3.) -->
+    <li>Grundschule Oberhausen</li>
+    <li>Copernicus Gymnasium</li>
+    <li><a href = "https://www.hs-karlsruhe.de">Hochschule Karlsruhe</a></li>
+  </ul>
+  <hr size = "3" noshade>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2017-today</td>
+        <td>SAP Consultant</td>
+      </tr>
+      <tr>
+        <td>2015</td>
+        <td>trainee at lidl</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr size = "3" noshade>
+  <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>Web Development:</td>
+        <td>*****</td>
+      </tr>
+      <tr>
+        <td>SAP:</td>
+        <td>******</td>
+      </tr>
+      <tr>
+        <td>ABSL:</td>
+        <td>****</td>
+      </tr>
+      <tr>
+        <td>Photoshop:</td>
+        <td>***</td>
+      </tr>
+    </table>
+<hr>
+<a href="hobbies.html"target="_blank">My Hobbies</a>
+<a href="contact.html"target="_blank">My Contact Data</a>
+</body>
+
+</html>
